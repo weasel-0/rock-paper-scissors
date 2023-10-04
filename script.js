@@ -11,14 +11,12 @@ console.log("Hello");
 
 let choices = ["rock", "paper", "scissors"];
 let randomNum;
-let computerSelection; /*= getComputerChoice();*/
-let playerSelection; /*= prompt("Enter your choice - rock,paper,scissors ");
-playerSelection = playerSelection.toLowerCase();*/
+let computerSelection;
+let playerSelection;
 let result;
 
-// console.log(choices[randomNum]);
-
-// const getComputerChoice = choices[randomNum];
+// playerSelection = document.querySelector("button");
+// console.log(playerSelection.textContent);
 
 // computer's choice
 function getComputerChoice() {
@@ -60,6 +58,7 @@ let playerScore = 0;
 let computerScore = 0;
 let roundNumber = 1;
 
+/*
 for (let i = 0; i < 5; i++) {
   computerSelection = getComputerChoice();
   playerSelection = prompt("Enter your choice - rock,paper,scissors ");
@@ -92,3 +91,4 @@ if (playerScore > computerScore) {
 } else {
   console.log("Go for another round!!");
 }
+*/
