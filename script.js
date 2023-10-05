@@ -15,9 +15,12 @@ let computerSelection;
 let playerSelection;
 let result;
 
-// playerSelection = document.querySelector("button");
-// console.log(playerSelection.textContent);
-
+const playerOption = document.querySelectorAll(".btn");
+function choice() {
+  playerSelection = playerOption.textContent;
+  console.log(playerSelection);
+}
+playerOption.forEach((option) => option.addEventListener("click", choice));
 // computer's choice
 function getComputerChoice() {
   randomNum = Math.floor(Math.random() * choices.length);
