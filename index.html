@@ -7,14 +7,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>rock, paper, scissors</h1>
     <div class="container">
-      <h1>hi</h1>
+      <div class="card scored">
+        <p class="pscore"></p>
+
+        <span>Human</span>
+      </div>
+      <div class="card">
+        <img src="rock.png" alt="rock" />
+        <button id="rockBtn">rock</button>
+      </div>
+      <div class="card">
+        <img src="paper.png" alt="paper" />
+        <button id="paperBtn">paper</button>
+      </div>
+      <div class="card">
+        <img src="scissors.png" alt="scissors" />
+        <button id="scissorsBtn">scissors</button>
+      </div>
+      <div class="card scored">
+        <p class="cscore"></p>
+        <span>Computer</span>
+      </div>
     </div>
-    <div class="game">
-      <button id="rockBtn">rock</button>
-      <button id="paperBtn">paper</button>
-      <button id="scissorsBtn">scissors</button>
+    <div class="contain">
+      <div id="liveFeed">
+        <div class="message"></div>
+      </div>
     </div>
+    <div class="winContainer">
+      <p class="winner"></p>
+      <button class="tryAgain">Try again</button>
+    </div>
+
     <script src="script2.js"></script>
   </body>
 </html>
